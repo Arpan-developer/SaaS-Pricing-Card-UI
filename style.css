@@ -9,6 +9,9 @@
 .navbar{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    background-color: aqua;
 }
 
 .list{
@@ -18,4 +21,38 @@
     display: flex;
     justify-content: space-around;
     list-style: none;
+}
+
+.name{
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+/* main */
+
+.top-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* main left */
+
+.left-section{
+    width: 40%;
+    background-color: aquamarine;
+}
+
+/* main right */
+
+.right-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    background-color: bisque;
+}
+
+.right-section img{
+    width: 500px;
+    height: 400px;
 }
