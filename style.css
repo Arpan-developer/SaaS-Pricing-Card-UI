@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #050814;
+    color: white;
 }
 
 /* NAVBAR */
@@ -11,11 +13,10 @@
     justify-content: space-between;
     align-items: center;
     height: 5rem;
-    background-color: aqua;
 }
 
 .list{
-    width: 30%;
+    width: 40%;
 }
 .list ul{
     display: flex;
@@ -23,9 +24,28 @@
     list-style: none;
 }
 
+.list ul li a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: white;
+}
+
+.list ul li a:hover{
+    text-decoration: underline;
+    color: #7C3AED;
+}
+
 .name{
     font-weight: bolder;
     font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading-button button{
+    padding: 8px 7px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid #7C3AED;
 }
 
 /* main */
@@ -33,13 +53,35 @@
 .top-section{
     display: flex;
     justify-content: space-between;
+    height: 75vh;
 }
 
 /* main left */
 
 .left-section{
     width: 40%;
-    background-color: aquamarine;
+}
+
+.left-section h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+
+.left-section h1 span{
+    color: #7C3AED;
+}
+
+.writings{
+    margin-top: 30px;
+}
+
+.writings h3{
+    border: 1px solid black;
+    width: 160px;
+    padding: 8px  3px;
+    border-radius: 20px;
+    background: radial-gradient(circle at 70% 50%, rgba(124, 58, 237, 0.25), transparent 40%), linear-gradient(135deg, #0B1020, #080B12);
 }
 
 /* main right */
@@ -49,10 +91,41 @@
     justify-content: center;
     align-items: center;
     width: 60%;
-    background-color: bisque;
 }
 
 .right-section img{
-    width: 500px;
-    height: 400px;
+    width: 800px;
+    height: 70vh;
+}
+
+/* main bottom section */
+
+.bottom-section{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+}
+
+.fast{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.easy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.support{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
