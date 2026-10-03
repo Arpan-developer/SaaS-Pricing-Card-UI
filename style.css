@@ -202,6 +202,66 @@
 
 /* FEATURES */
 
+/* features heaading */
+.features-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.all-features{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 60%;
+    margin-left: 21%;
+}
+
+.features-button{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features-button button{
+    margin: 40px 0;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.analytics{
+    border: 1px solid white;
+    padding: 40px 10px;
+}
+
+.cloud{
+    border: 1px solid white;
+    padding: 40px 10px;
+}
+
+.team{
+    border: 1px solid white;
+    padding: 40px 10px;
+}
+
+.automation{
+    border: 1px solid white;
+    padding: 40px 10px;
+}
+
+.security{
+    border: 1px solid white;
+    padding: 40px 10px;
+}
+
+.custom{
+    border: 1px solid white;
+    padding: 40px 10px;
+}
+
 
 
 
