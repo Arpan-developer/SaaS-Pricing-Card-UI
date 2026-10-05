@@ -2,33 +2,274 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NextGen | Pricing</title>
+
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
-    <title>SaaS pricing UI</title>
+
 </head>
 
 <body>
-    <div class="whole">
-        <navbar class="navbar">
-            <div class="name">
-                NextGen
-            </div>
-            <div class="list">
-                <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="features.html">Features</a></li>
-                    <li><a href="pricing.html">Pricing</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-            <div class="heading-button">
-                <button>Get Started</button>
-            </div>
-        </navbar>
-    </div>
-</body>
 
+
+<header class="navbar">
+
+    <a href="home.html" class="logo">
+        Next<span>Gen</span>
+    </a>
+
+    <button class="menu-btn" id="menuBtn">☰</button>
+
+    <nav id="navMenu">
+
+        <a href="home.html">Home</a>
+        <a href="features.html">Features</a>
+        <a href="pricing.html" class="active">Pricing</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+
+    </nav>
+
+    <a href="pricing.html" class="nav-btn">
+        Get Started
+    </a>
+
+</header>
+
+
+<section class="pricing-section">
+
+
+    <div class="section-heading">
+
+        <span class="badge">
+            Simple & Transparent Pricing
+        </span>
+
+        <h1>
+            Choose the Perfect Plan
+            <br>
+            for <span>Your Needs</span>
+        </h1>
+
+        <p>
+            Flexible pricing plans designed to help you grow,
+            whether you're just starting or scaling your business.
+        </p>
+
+    </div>
+
+
+    <!-- BILLING TOGGLE -->
+
+    <div class="billing-container">
+
+        <button id="monthlyBtn" class="billing-btn active">
+            Monthly
+        </button>
+
+        <button id="yearlyBtn" class="billing-btn">
+            Yearly
+        </button>
+
+        <span class="save-badge">
+            Save 20%
+        </span>
+
+    </div>
+
+
+    <!-- PRICING CARDS -->
+
+    <div class="pricing-cards">
+
+
+        <!-- BASIC -->
+
+        <div class="pricing-card">
+
+            <div class="icon">⚡</div>
+
+            <h2>Basic</h2>
+
+            <p class="description">
+                Perfect for individuals and small projects.
+            </p>
+
+            <div class="price">
+
+                <span>$</span>
+
+                <span
+                    class="price-number"
+                    data-monthly="9"
+                    data-yearly="7">
+                    9
+                </span>
+
+                <small>/month</small>
+
+            </div>
+
+            <ul>
+
+                <li>✓ 1 Website</li>
+                <li>✓ 10 GB Storage</li>
+                <li>✓ Free SSL Certificate</li>
+                <li>✓ Basic Analytics</li>
+                <li>✓ 24/7 Support</li>
+
+            </ul>
+
+            <button class="card-btn">
+                Get Started →
+            </button>
+
+        </div>
+
+
+        <!-- PRO -->
+
+        <div class="pricing-card popular">
+
+            <div class="popular-badge">
+                Most Popular
+            </div>
+
+            <div class="icon">◈</div>
+
+            <h2>Pro</h2>
+
+            <p class="description">
+                Ideal for growing businesses and teams.
+            </p>
+
+            <div class="price">
+
+                <span>$</span>
+
+                <span
+                    class="price-number"
+                    data-monthly="29"
+                    data-yearly="23">
+                    29
+                </span>
+
+                <small>/month</small>
+
+            </div>
+
+            <ul>
+
+                <li>✓ 5 Websites</li>
+                <li>✓ 50 GB Storage</li>
+                <li>✓ Free SSL Certificate</li>
+                <li>✓ Advanced Analytics</li>
+                <li>✓ Priority Support</li>
+
+            </ul>
+
+            <button class="card-btn primary">
+                Get Started →
+            </button>
+
+        </div>
+
+
+        <!-- ENTERPRISE -->
+
+        <div class="pricing-card">
+
+            <div class="icon">👥</div>
+
+            <h2>Enterprise</h2>
+
+            <p class="description">
+                For large teams and custom needs.
+            </p>
+
+            <div class="price">
+
+                <span>$</span>
+
+                <span
+                    class="price-number"
+                    data-monthly="79"
+                    data-yearly="63">
+                    79
+                </span>
+
+                <small>/month</small>
+
+            </div>
+
+            <ul>
+
+                <li>✓ Unlimited Websites</li>
+                <li>✓ 200 GB Storage</li>
+                <li>✓ Free SSL Certificate</li>
+                <li>✓ Custom Analytics</li>
+                <li>✓ Dedicated Support</li>
+
+            </ul>
+
+            <button class="card-btn">
+                Get Started →
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- TRUST FEATURES -->
+
+    <div class="trust-features">
+
+        <div>
+            <strong>⚡</strong>
+            <h3>Fast Performance</h3>
+            <p>Blazing fast infrastructure.</p>
+        </div>
+
+        <div>
+            <strong>🔒</strong>
+            <h3>Top Security</h3>
+            <p>Your data stays protected.</p>
+        </div>
+
+        <div>
+            <strong>♧</strong>
+            <h3>24/7 Support</h3>
+            <p>We're always here to help.</p>
+        </div>
+
+        <div>
+            <strong>★</strong>
+            <h3>Trusted by Millions</h3>
+            <p>Join happy customers worldwide.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<footer>
+
+    <div class="logo">
+        Next<span>Gen</span>
+    </div>
+
+    <p>© 2026 NextGen. All rights reserved.</p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
 </html>

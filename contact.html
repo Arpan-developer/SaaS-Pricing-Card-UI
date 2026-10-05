@@ -2,33 +2,174 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NextGen | Contact</title>
+
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
-    <title>SaaS pricing UI</title>
+
 </head>
 
 <body>
-    <div class="whole">
-        <navbar class="navbar">
-            <div class="name">
-                NextGen
-            </div>
-            <div class="list">
-                <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="features.html">Features</a></li>
-                    <li><a href="pricing.html">Pricing</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-            <div class="heading-button">
-                <button>Get Started</button>
-            </div>
-        </navbar>
-    </div>
-</body>
 
+
+<header class="navbar">
+
+    <a href="home.html" class="logo">
+        Next<span>Gen</span>
+    </a>
+
+    <button class="menu-btn" id="menuBtn">☰</button>
+
+    <nav id="navMenu">
+
+        <a href="home.html">Home</a>
+        <a href="features.html">Features</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
+
+    </nav>
+
+    <a href="pricing.html" class="nav-btn">
+        Get Started
+    </a>
+
+</header>
+
+
+<section class="contact-section">
+
+
+    <div class="contact-info">
+
+        <span class="badge">
+            Get In Touch
+        </span>
+
+        <h1>
+            Let's <span>Talk</span>
+        </h1>
+
+        <p>
+            Have a question or want to work together?
+            We'd love to hear from you.
+        </p>
+
+
+        <div class="contact-item">
+
+            <strong>✉</strong>
+
+            <div>
+                <h3>Email</h3>
+                <p>hello@nextgen.com</p>
+            </div>
+
+        </div>
+
+
+        <div class="contact-item">
+
+            <strong>☎</strong>
+
+            <div>
+                <h3>Phone</h3>
+                <p>+91 98765 43210</p>
+            </div>
+
+        </div>
+
+
+        <div class="contact-item">
+
+            <strong>📍</strong>
+
+            <div>
+                <h3>Location</h3>
+                <p>Kolkata, West Bengal, India</p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- CONTACT FORM -->
+
+    <div class="contact-form">
+
+        <h2>Send a Message</h2>
+
+        <form id="contactForm">
+
+            <label>Your Name</label>
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter your name"
+                required
+            >
+
+
+            <label>Your Email</label>
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Enter your email"
+                required
+            >
+
+
+            <label>Subject</label>
+
+            <input
+                type="text"
+                id="subject"
+                placeholder="Enter subject"
+                required
+            >
+
+
+            <label>Message</label>
+
+            <textarea
+                id="message"
+                rows="5"
+                placeholder="Type your message..."
+                required
+            ></textarea>
+
+
+            <button type="submit" class="primary-btn">
+                Send Message →
+            </button>
+
+        </form>
+
+        <p id="formMessage"></p>
+
+    </div>
+
+</section>
+
+
+<footer>
+
+    <div class="logo">
+        Next<span>Gen</span>
+    </div>
+
+    <p>© 2026 NextGen. All rights reserved.</p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
 </html>
